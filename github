@@ -1,0 +1,18 @@
+// How to push in get hub
+// first create a repository
+// Use terminal
+cd ~/Desktop/projects
+git clone <repository_URL>
+git clone git@github.com:aklson-datascientist/github-example.git
+ls
+cd ~/Desktop/projects/github-example
+
+/* Updating the remote repository or sync-ing it with the local version consists of three steps:
+Staging the changes.
+Committing them.
+Pushing them to the remote repository.*/
+
+git add python_code.py
+git commit -m 'message'
+git push origin master
+git push
