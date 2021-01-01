@@ -1,0 +1,96 @@
+Echo
+is for printing commands in terminal
+
+the explanation mark(!)
+Causes issue in command line
+
+Example echo 'Hello, shello!'
+
+ls
+List the files in the directory.
+
+cd
+Move to a different directory.
+
+..(the two dots)
+Let you go back in the directory and the
+
+;
+Semi
+run two command at the same time
+
+pwd
+Print Working Directory shows you in which directory you are
+
+..
+Is the parent directory
+
+.
+Current Directory
+
+ls delta
+will bring your home directory (علامة التقريب(
+
+ls - l
+print longer more detail listing of files
+
+Ls - l Documents/*.pdf
+  ○ List all of your pdf files in the pdf directory
+
+mkdir
+Creates directories.
+
+mv
+Move files from a directory to another.
+Using Shell you can move all files from a directory to another
+
+CURL
+is used in command lines or scripts to transfer data. To download a file from a dirctory.
+
+-L
+follow redirect
+
+-o
+google.html-L
+
+-o
+to get it to the file
+
+U need to put ' inside the URL'
+
+cat
+View file content. (catenate)
+
+less
+View file content screen by screen.
+
+rm
+
+Delete files.
+rmdir
+
+Delete directories.
+
+Rm
+
+remove the file forver
+Rm -I
+
+remove the file to the trash
+
+grep
+"global regular expression print,” processes text line by line and prints any lines which match a specified pattern
+• wc: "short for word count" reads either standard input or a list of files and generates one or more of the following statistics: newline count, word count, and byte count
+grep shell dictionary.txt | less
+grep shell dictionary.txt | less
+
+
+
+
+
+
+
+
+ls Pictures is the most direct way to do it.
+cd Pictures; ls changes directory to the Pictures subdirectory, then runs ls in that directory.
+ls Pictures/../Pictures is unnecessarily verbose, but it does work.
